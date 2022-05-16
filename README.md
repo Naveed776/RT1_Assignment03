@@ -23,6 +23,8 @@ Install ros navigation stack:
  and then launch the simple file 
  
  `$ roslaunch final_assignment final.launch`
+ # Brief Discussion of the Project
  
- # 
+ After running final.launch, seven nodes are active:
 
+- 'cmd_vel/'
