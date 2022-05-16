@@ -27,14 +27,13 @@ Install ros navigation stack:
  
  After running final.launch, seven nodes are active:
 
--the topic`\cmd_vel` and the node of`\teleop` eidted on `\prov_cmd_vel`. 
+- the topic`\cmd_vel` and the node of`\teleop` eidted on `\prov_cmd_vel`. 
 - form this the velocity imposed via keyboard isn't immediately imposed to the robot,
 -  it's controlled by \final_UI node.
 ### final_UI
 
--The node `\final_UI` is also connected to `\gazebo` and `\move_base `nodes. 
--It receives the robot's status by `\move_base\feedback `and publish the goal to reach on `\move_base\goal`
--This node also subscribe on `\move_base\goal` topic to have a goal feedback.
--It can cancel current goal using `\move_base\cancel `topic.
-
-`\final_UI` node also receives the laser scanner output on `\scan` topic by `\gazebo` node and sends to this node the robot velocity on `\cmd_vel `topic.
+- the node `\final_UI` is also connected to `\gazebo` and `\move_base `nodes. 
+- It receives the robot's status by `\move_base\feedback `and publish the goal to reach on `\move_base\goal`
+- This node also subscribe on `\move_base\goal` topic to have a goal feedback.
+- It can cancel current goal using `\move_base\cancel `topic.
+- `\final_UI` node also receives the laser scanner output on `\scan` topic by `\gazebo` node and sends to this node the robot velocity on `\cmd_vel `topic.
