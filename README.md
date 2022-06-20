@@ -40,3 +40,8 @@ Install ros navigation stack:
 
 
 
+### Possible improvement
+In this project the user can replace the goal to be achieved even when the robot is still reaching the previous one, deleting the later. A queue could be implemented where goals are reached sequentially.
+Even when the map of the environment is complete, the robot is not able to understand a priori which points can be reached and which cannot. This could be improved.
+
+
