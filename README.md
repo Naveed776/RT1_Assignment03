@@ -23,6 +23,47 @@ Install ros navigation stack:
  and then launch the simple file 
  
  `$ roslaunch final_assignment final.launch`
+ 
+ 
+ # Environment of Assignemnt
+ The robot moves in the environment in the figure (Gazebo view):
+ ![Screenshot from 2022-06-21 16-01-54](https://user-images.githubusercontent.com/91262613/174819361-4154f467-50e2-43d0-b63f-ed77aedb1d9c.png)
+
+ 
+initially the robot does not have a map of the surrounding environment, but can build it thanks to the laser scanners it is equipped with and thanks to the gmapping package. The final map, visible on Rviz is as follows:
+
+![Screenshot from 2022-06-21 16-02-11](https://user-images.githubusercontent.com/91262613/174819383-b9b14b97-f23d-4b88-bbc0-e4a0be29099e.png)
+
+ 
+ ### ASSIGNEMNT GOALS
+ 
+ There is a three goal of assigment that i achieved it from very efficent way
+ 
+ `case 0 `
+ 
+ 
+ used for quit goal
+ break.
+ 
+ `case 1`
+ 
+ 
+ take co ordinates from the user and move the robot and achievd the target within a time 
+ 
+ `case 2 `
+ 
+ if there is a goal set cancel the actual goal and print the message 
+ else print warninng
+
+`case 3`
+
+ manually driving
+a input enable/disable driving manuallty
+x is used for the input, stop the robot disable driving assistences disable manually driving.
+
+break print error message.
+
+
  ###  topics and Node
  
  After running final.launch, seven nodes are active:
