@@ -38,6 +38,7 @@ Install ros navigation stack:
 
 ### FLOW CHART
 
+![WhatsApp Image 2022-05-20 at 1 39 26 AM (1)](https://user-images.githubusercontent.com/91262613/174805415-d00cdeff-1c03-46fc-90f8-aff9c34f3e02.jpeg)
 
 
 ### Possible improvement
